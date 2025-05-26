@@ -92,7 +92,7 @@ Notes, build scripts, and associated files for the Configuring BIG-IP WAF versio
 ## Lab Name, Duration (hr) and VLANs
 
 |Number                   |Name                                                                            |Duration|    Series|Mgmt|External|Internal|
-|-------------------------|--------------------------------------------------------------------------------|--------|----------|:--:|:------:|:------:|
+|-------------------------|--------------------------------------------------------------------------------|-------:|----------|:--:|:------:|:------:|
 |WAF175-C1B01-VULNERABLE  |Discover Web Application Vulnerabilities                                        |       1|WAF175-100|X   |X       |X       |
 |WAF175-C1C01-RAPID       |Deploy a New BIG-IP Advanced WAF Policy Using the Rapid Deployment Template     |       1|WAF175-110|X   |X       |X       |
 |WAF175-C1C02-GUIDE       |Implement Web Application Protections Using the Guided Configuration            |       1|WAF175-120|X   |X       |X       |
