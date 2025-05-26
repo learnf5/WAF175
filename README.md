@@ -8,11 +8,11 @@ Notes, build scripts, and associated files for the Configuring BIG-IP WAF versio
 |WAF-C1B01-WebAppVuln     |WAF175-C1B01-VULNERABLE |
 |WAF-C1C01-NewPolRapid    |WAF175-C1C01-RAPID      |
 |WAF-C1C02-WebAppProtGC   |WAF175-C1C02-GUIDE      |
-|WAF-C1D01-TrigVio        |WAF175-C1D01-VIOLATION  |
+|WAF-C1D01-TrigVio        |WAF175-C1D01-TRIGGER    |
 |WAF-C1D03-HandLrnSug     |WAF175-C1D03-LEARN      |
-|WAF-C1D04-PolEnfModStg   |WAF175-C1D04-ENFORCEMENT|
+|WAF-C1D04-PolEnfModStg   |WAF175-C1D04-ENFORCE    |
 |WAF-C2A01-UsrDefAttSig   |WAF175-C2A01-ATTACK     |
-|WAF-C2B01-LocRemLogProf  |WAF175-C2B01-REMOTE     |
+|WAF-C2B01-LocRemLogProf  |WAF175-C2B01-LOCAL      |
 |WAF-C2B02-RespLog        |WAF175-C2B02-RESPONSE   |
 |WAF-C2B03-PCICompRpt     |WAF175-C2B03-PCI        |
 |WAF-C2C02-BrtFrcAtk      |WAF175-C2C02-BRUTE      |
