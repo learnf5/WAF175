@@ -1,0 +1,10 @@
+{
+    "timesToSend": 20,
+    "url": "http://juice.f5trn.com/api/Feedbacks/",
+    "payload": {
+        "comment": "Repeating feedback 20 times",
+        "rating": 1,
+        "captcha": "5",
+        "captchaId": 0
+    }
+}
