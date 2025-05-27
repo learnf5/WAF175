@@ -69,25 +69,25 @@ Notes, build scripts, and associated files for the Configuring BIG-IP WAF versio
 |WAF175-C3B03-LOGIN      |8     |4   |4             |uservices.scf|
 |WAF175-C3B04-SIGNUP     |8     |4   |4             |uservices.scf|
 |WAF175-C3B05-SEARCH     |8     |4   |4             |uservices.scf|
-|WAF175-C3B06-CART       |8     |4   |4             |             |
-|WAF175-C3B07-CHECKOUT   |8     |4   |4             |             |
-|WAF175-C3B08-FORM       |8     |4   |4             |             |
-|WAF175-C3B09-HARVEST    |8     |4   |4             |             |
-|WAF175-C4A01-NEVER      |8     |4   |4             |             |
-|WAF175-C4A02-LEARN      |8     |4   |4             |             |
-|WAF175-C4A03-COMPACT    |8     |4   |4             |             |
-|WAF175-C4B01-COOKIE     |8     |4   |4             |             |
-|WAF175-C4B02-HTTP       |8     |4   |4             |             |
-|WAF175-C4B03-HEADER     |8     |4   |4             |             |
-|WAF175-C4C01-STATIC     |8     |4   |4             |             |
-|WAF175-C4C02-DYNAMIC    |8     |4   |4             |             |
-|WAF175-C4D01-POLICY     |8     |4   |4             |             |
-|WAF175-C4E01-LAYERED    |8     |4   |4             |             |
-|WAF175-C4F01-IRULE      |8     |4   |4             |             |
-|WAF175-C4F02-CUSTOM     |8     |4   |4             |             |
-|WAF175-C4G01-GEOLOCATION|8     |4   |4             |             |
-|WAF175-C4G02-EXCEPTION  |8     |4   |4             |             |
-|WAF175-C4J02-LAYER7     |8     |4   |4             |             |
+|WAF175-C3B06-CART       |8     |4   |4             |uservices.scf|
+|WAF175-C3B07-CHECKOUT   |8     |4   |4             |uservices.scf|
+|WAF175-C3B08-FORM       |8     |4   |4             |uservices.scf|
+|WAF175-C3B09-HARVEST    |8     |4   |4             |uservices.scf|
+|WAF175-C4A01-NEVER      |8     |4   |4             |base.scf     |
+|WAF175-C4A02-LEARN      |8     |4   |4             |base.scf     |
+|WAF175-C4A03-COMPACT    |8     |4   |4             |base.scf     |
+|WAF175-C4B01-COOKIE     |8     |4   |4             |base.scf     |
+|WAF175-C4B02-HTTP       |8     |4   |4             |base.scf     |
+|WAF175-C4B03-HEADER     |8     |4   |4             |rdp.scf      |
+|WAF175-C4C01-STATIC     |8     |4   |4             |base.scf     |
+|WAF175-C4C02-DYNAMIC    |8     |4   |4             |base.scf     |
+|WAF175-C4D01-POLICY     |8     |4   |4             |base.scf     |
+|WAF175-C4E01-LAYERED    |8     |4   |4             |base.scf     |
+|WAF175-C4F01-IRULE      |8     |4   |4             |rdp.scf      |
+|WAF175-C4F02-CUSTOM     |8     |4   |4             |rdp.scf      |
+|WAF175-C4G01-GEOLOCATION|8     |4   |4             |rdp.scf      |
+|WAF175-C4G02-EXCEPTION  |8     |4   |4             |rdp.scf      |
+|WAF175-C4J02-LAYER7     |8     |4   |4             |base.scf     |
 
 ## Lab Name, Duration (hr) and VLANs
 
