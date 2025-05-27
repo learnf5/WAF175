@@ -9,7 +9,7 @@ Notes, build scripts, and associated files for the Configuring BIG-IP WAF versio
 |WAF-C1C01-NewPolRapid    |WAF175-C1C01-RAPID      |
 |WAF-C1C02-WebAppProtGC   |WAF175-C1C02-GUIDE      |
 |WAF-C1D01-TrigVio        |WAF175-C1D01-TRIGGER    |
-|WAF-C1D03-HandLrnSug     |WAF175-C1D03-LEARN      |
+|WAF-C1D03-HandLrnSug     |WAF175-C1D03-SUGGEST    |
 |WAF-C1D04-PolEnfModStg   |WAF175-C1D04-ENFORCE    |
 |WAF-C2A01-UsrDefAttSig   |WAF175-C2A01-ATTACK     |
 |WAF-C2B01-LocRemLogProf  |WAF175-C2B01-LOCAL      |
@@ -53,7 +53,7 @@ Notes, build scripts, and associated files for the Configuring BIG-IP WAF versio
 |WAF175-C1C01-RAPID      |8     |4   |4             |base.scf     |
 |WAF175-C1C02-GUIDE      |8     |4   |4             |*none*       |
 |WAF175-C1D01-TRIGGER    |8     |4   |4             |rdp.scf      |
-|WAF175-C1D03-LEARN      |8     |4   |4             |rdp.scf      |
+|WAF175-C1D03-SUGGEST    |8     |4   |4             |rdp.scf      |
 |WAF175-C1D04-ENFORCE    |8     |4   |4             |rdp.scf      |
 |WAF175-C2A01-ATTACK     |8     |4   |4             |rdp.scf      |
 |WAF175-C2B01-LOCAL      |8     |4   |4             |rdp.scf      |
@@ -97,7 +97,7 @@ Notes, build scripts, and associated files for the Configuring BIG-IP WAF versio
 |WAF175-C1C01-RAPID       |Deploy a New BIG-IP Advanced WAF Policy Using the Rapid Deployment Template     |       1|WAF175-110|X   |X       |X       |
 |WAF175-C1C02-GUIDE       |Implement Web Application Protections Using the Guided Configuration            |       1|WAF175-120|X   |X       |X       |
 |WAF175-C1D01-TRIGGER     |Trigger and Review a Violation                                                  |       1|WAF175-130|X   |X       |X       |
-|WAF175-C1D03-LEARN       |Handle Learning Suggestions                                                     |       1|WAF175-140|X   |X       |X       |
+|WAF175-C1D03-SUGGEST     |Handle Learning Suggestions                                                     |       1|WAF175-140|X   |X       |X       |
 |WAF175-C1D04-ENFORCE     |Manage Policy Enforcement Mode and Staging                                      |       1|WAF175-150|X   |X       |X       |
 |WAF175-C2A01-ATTACK      |Create a User-Defined Attack Signature                                          |       1|WAF175-200|X   |X       |X       |
 |WAF175-C2B01-LOCAL       |Configure Local and Remote Logging Profiles                                     |       1|WAF175-210|X   |X       |X       |
