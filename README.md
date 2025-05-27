@@ -30,7 +30,7 @@ Notes, build scripts, and associated files for the Configuring BIG-IP WAF versio
 |WAF-C3B08-AutoFrmSubMS   |WAF175-C3B08-FORM       |
 |WAF-C3B09-IPHarvMS       |WAF175-C3B09-HARVEST    |
 |WAF-C4A01-NvrSelAlways   |WAF175-C4A01-NEVER      |
-|WAF-C4A02-LrngEnfrcmt    |WAF175-C4A02-EXPERIMENT |
+|WAF-C4A02-LrngEnfrcmt    |WAF175-C4A02-LEARN      |
 |WAF-C4A03-CmptSchm       |WAF175-C4A03-COMPACT    |
 |WAF-C4B01-CookieTamprg   |WAF175-C4B01-COOKIE     |
 |WAF-C4B02-SecHttpHdr     |WAF175-C4B02-HTTP       |
@@ -74,7 +74,7 @@ Notes, build scripts, and associated files for the Configuring BIG-IP WAF versio
 |WAF175-C3B08-FORM       |8     |4   |4             |             |
 |WAF175-C3B09-HARVEST    |8     |4   |4             |             |
 |WAF175-C4A01-NEVER      |8     |4   |4             |             |
-|WAF175-C4A02-EXPERIMENT |8     |4   |4             |             |
+|WAF175-C4A02-LEARN      |8     |4   |4             |             |
 |WAF175-C4A03-COMPACT    |8     |4   |4             |             |
 |WAF175-C4B01-COOKIE     |8     |4   |4             |             |
 |WAF175-C4B02-HTTP       |8     |4   |4             |             |
@@ -118,7 +118,7 @@ Notes, build scripts, and associated files for the Configuring BIG-IP WAF versio
 |WAF175-C3B08-FORM        |Deploy the Automated Form Submission Microservice                               |       1|WAF175-350|X   |X       |X       |
 |WAF175-C3B09-HARVEST     |Deploy the Intellectual Property Harvesting Microservice                        |       1|WAF175-355|X   |X       |X       |
 |WAF175-C4A01-NEVER       |Learning with Never Selective and Always                                        |       1|WAF175-400|X   |X       |X       |
-|WAF175-C4A02-EXPERIMENT  |Experiment with Learning and Enforcement                                        |       1|WAF175-405|X   |X       |X       |
+|WAF175-C4A02-LEARN       |Experiment with Learning and Enforcement                                        |       1|WAF175-405|X   |X       |X       |
 |WAF175-C4A03-COMPACT     |Learn using the Compact Scheme                                                  |       1|WAF175-410|X   |X       |X       |
 |WAF175-C4B01-COOKIE      |Protect Against Cookie Tampering                                                |       1|WAF175-415|X   |X       |X       |
 |WAF175-C4B02-HTTP        |Secure HTTP Headers                                                             |       1|WAF175-420|X   |X       |X       |
