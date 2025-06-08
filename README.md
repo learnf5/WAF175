@@ -1,7 +1,7 @@
 # WAF175
 Notes, build scripts, and associated files for the Configuring BIG-IP WAF version 17.5 course.
 
-# Lab Numbers for versions 17.1 and 17.5
+## Lab Numbers for versions 17.1 and 17.5
 
 |WAF 17.1 Number          |WAF 17.5 Number         |
 |-------------------------|------------------------|
@@ -45,7 +45,7 @@ Notes, build scripts, and associated files for the Configuring BIG-IP WAF versio
 |WAF-C4G02-IpAddrExcpt    |WAF175-C4G02-EXCEPTION  |
 |WAF-C4J02-L7LocTrafPol   |WAF175-C4J02-LAYER7     |
 
-# Lab VM RAM (GB) and SCF
+## Lab VM RAM (GB) and SCF
 
 |Number                  |bigip1|jump|backend server|SCF              |
 |------------------------|:----:|:--:|:------------:|-----------------|
