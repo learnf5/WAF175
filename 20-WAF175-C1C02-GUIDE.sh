@@ -1,5 +1,5 @@
 # download config form GitHub, copy to bigip1 and merge/load it onto bigip1
-curl --silent https://raw.githubusercontent.com/learnf5/waf/main/scf/guided-config.scf --output /tmp/guided-config.scf
+curl --silent https://raw.githubusercontent.com/learnf5/$COURSE_ID/main/scf/guided-config.scf --output /tmp/guided-config.scf
 sudo scp /tmp/guided-config.scf 192.168.1.31:/var/local/scf
 sudo ssh 192.168.1.31 tmsh load sys config merge file guided-config.scf
 
