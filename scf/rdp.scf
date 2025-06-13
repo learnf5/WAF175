@@ -427,8 +427,8 @@ ilx global-settings {
 ltm default-node-monitor {
     rule none
 }
-ltm node /Common/172.16.20.100 {
-    address 172.16.20.100
+ltm node /Common/172.16.20.160 {
+    address 172.16.20.160
 }
 ltm policy /Common/asm_auto_l7_policy__AdvWAF_vs {
     controls { asm }
@@ -449,8 +449,8 @@ ltm policy /Common/asm_auto_l7_policy__AdvWAF_vs {
 }
 ltm pool /Common/juice_pool {
     members {
-        /Common/172.16.20.100:3000 {
-            address 172.16.20.100
+        /Common/172.16.20.160:80 {
+            address 172.16.20.160
         }
     }
     monitor /Common/http
