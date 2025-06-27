@@ -5,8 +5,8 @@ sudo ssh 192.168.1.31 tmsh load sys config merge file guided-config.scf
 
 # download attack scripts and iRules; move to Lab_Files; clean up
 cd /tmp
-git clone https://github.com/learnf5/WAF175.git attacks
-git clone https://github.com/learnf5/WAF175.git iRules
+git clone https://github.com/learnf5/$COURSE_ID.git attacks
+git clone https://github.com/learnf5/$COURSE_ID.git iRules
 mv /tmp/attacks/attacks /home/student/Desktop/Lab_Files
 cp --recursive /tmp/iRules/iRules/. /home/student/Desktop/Lab_Files
 rm --recursive --force /attacks /home/student/Desktop/Lab_Files/harvest_readme.md /iRules
