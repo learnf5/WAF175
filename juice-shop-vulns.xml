@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scanner_vulnerabilities xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.0">
+  <vulnerability>
+    <name>Vulnerable Server Software</name>
+    <url>https://juice.dev.learnf5.cloud/.well-known/security.txt</url>
+    <threat>info</threat>
+    <score>0</score>
+    <status>open</status>
+    <opened xsi:nil="true" />
+  </vulnerability>
+  <vulnerability>
+    <name>Vulnerable Server Software</name>
+    <url>https://juice.dev.learnf5.cloud/</url>
+    <threat>info</threat>
+    <score>0</score>
+    <status>open</status>
+    <opened xsi:nil="true" />
+  </vulnerability>
+  <vulnerability>
+    <attack_type>Information Leakage</attack_type>
+    <name>Sensitive Data Exposure</name>
+    <url>https://juice.dev.learnf5.cloud/metrics</url>
+    <threat>high</threat>
+    <score>8</score>
+    <status>open</status>
+    <opened xsi:nil="true" />
+  </vulnerability>
+  <vulnerability>
+    <name>Vulnerable Server Software</name>
+    <url>https://juice.dev.learnf5.cloud/</url>
+    <threat>info</threat>
+    <score>0</score>
+    <status>open</status>
+    <opened xsi:nil="true" />
+  </vulnerability>
+  <vulnerability>
+    <attack_type>Information Leakage</attack_type>
+    <name>Sensitive Data Exposure</name>
+    <url>https://juice.dev.learnf5.cloud//api-docs/swagger.yaml</url>
+    <threat>high</threat>
+    <score>8</score>
+    <status>open</status>
+    <opened xsi:nil="true" />
+  </vulnerability>
+  <vulnerability>
+    <name>Insecure Transport Layer</name>
+    <url>https://juice.dev.learnf5.cloud/#/</url>
+    <threat>medium</threat>
+    <score>5</score>
+    <status>open</status>
+    <opened xsi:nil="true" />
+  </vulnerability>
+  <vulnerability>
+    <name>Logging and Monitoring</name>
+    <url>https://juice.dev.learnf5.cloud</url>
+    <threat>info</threat>
+    <score>0</score>
+    <status>open</status>
+    <opened xsi:nil="true" />
+  </vulnerability>
+  <vulnerability>
+    <attack_type>Cross-site Request Forgery</attack_type>
+    <name>Cross-site Request Forgery (CSRF)</name>
+    <url>https://juice.dev.learnf5.cloud/profile/image/url</url>
+    <threat>medium</threat>
+    <score>5</score>
+    <status>open</status>
+    <opened xsi:nil="true" />
+  </vulnerability>
+  <vulnerability>
+    <attack_type>Injection Attempt</attack_type>
+    <name>Improper Input Validation</name>
+    <url>https://juice.dev.learnf5.cloud/profile</url>
+    <threat>high</threat>
+    <score>8</score>
+    <status>open</status>
+    <opened xsi:nil="true" />
+  </vulnerability>
+  <vulnerability>
+    <attack_type>Cross Site Scripting (XSS)</attack_type>
+    <name>Cross-site Scripting (Reflected)</name>
+    <url>https://juice.dev.learnf5.cloud/#/search?q=88315101'%3E%22%3Ehh%3Cimg%20src%3Da%20onerror%3Dalert(1563349850)%3E1563349850</url>
+    <parameter>q</parameter>
+    <threat>critical</threat>
+    <score>9</score>
+    <status>open</status>
+    <opened xsi:nil="true" />
+  </vulnerability>
+  <vulnerability>
+    <attack_type>SQL-Injection</attack_type>
+    <name>SQL Injection</name>
+    <url>https://juice.dev.learnf5.cloud/rest/products/search?q=%27%20AND%20%27512%27=%273%27))--</url>
+    <parameter>q</parameter>
+    <threat>critical</threat>
+    <score>10</score>
+    <status>open</status>
+    <opened xsi:nil="true" />
+  </vulnerability>
+  <vulnerability>
+    <attack_type>Set-Cookie does not use Secure keyword</attack_type>
+    <name>Cookie without Secure Flag</name>
+    <url>https://juice.dev.learnf5.cloud/#/register</url>
+    <cookie>continuecode</cookie>
+    <threat>low</threat>
+    <score>4</score>
+    <status>open</status>
+    <opened xsi:nil="true" />
+  </vulnerability>
+  <vulnerability>
+    <name>Missing Subresource Integrity</name>
+    <url>https://juice.dev.learnf5.cloud/profile</url>
+    <threat>low</threat>
+    <score>3</score>
+    <status>open</status>
+    <opened xsi:nil="true" />
+  </vulnerability>
+  <vulnerability>
+    <attack_type>Cross-site Request Forgery</attack_type>
+    <name>Cross-site Request Forgery (CSRF)</name>
+    <url>https://juice.dev.learnf5.cloud/socket.io/?EIO=4&amp;transport=polling&amp;t=PmGp1ZJ&amp;sid=8_pogR71gJFw-ikxAAGU</url>
+    <threat>medium</threat>
+    <score>5</score>
+    <status>open</status>
+    <opened xsi:nil="true" />
+  </vulnerability>
+  <vulnerability>
+    <attack_type>Set-Cookie does not use Secure keyword</attack_type>
+    <name>Cookie without Secure Flag</name>
+    <url>https://juice.dev.learnf5.cloud/#/login</url>
+    <cookie>token</cookie>
+    <threat>low</threat>
+    <score>4</score>
+    <status>open</status>
+    <opened xsi:nil="true" />
+  </vulnerability>
+  <vulnerability>
+    <attack_type>Set-Cookie does not use Secure keyword</attack_type>
+    <name>Cookie without Secure Flag</name>
+    <url>https://juice.dev.learnf5.cloud/#/</url>
+    <cookie>welcomebanner_status</cookie>
+    <threat>low</threat>
+    <score>4</score>
+    <status>open</status>
+    <opened xsi:nil="true" />
+  </vulnerability>
+  <vulnerability>
+    <attack_type>Set-Cookie does not use Secure keyword</attack_type>
+    <name>Cookie without Secure Flag</name>
+    <url>https://juice.dev.learnf5.cloud/#/</url>
+    <cookie>cookieconsent_status</cookie>
+    <threat>low</threat>
+    <score>4</score>
+    <status>open</status>
+    <opened xsi:nil="true" />
+  </vulnerability>
+  <vulnerability>
+    <name>Missing Security Headers</name>
+    <url>https://juice.dev.learnf5.cloud/socket.io/?EIO=4&amp;transport=polling&amp;t=PmGnk9U</url>
+    <threat>low</threat>
+    <score>4</score>
+    <status>open</status>
+    <opened xsi:nil="true" />
+  </vulnerability>
+  <vulnerability>
+    <name>Missing Security Headers</name>
+    <url>https://juice.dev.learnf5.cloud/socket.io/?EIO=4&amp;transport=polling&amp;t=PmGnk9U</url>
+    <threat>low</threat>
+    <score>4</score>
+    <status>open</status>
+    <opened xsi:nil="true" />
+  </vulnerability>
+  <vulnerability>
+    <name>Missing Security Headers</name>
+    <url>https://juice.dev.learnf5.cloud/</url>
+    <threat>low</threat>
+    <score>4</score>
+    <status>open</status>
+    <opened xsi:nil="true" />
+  </vulnerability>
+  <vulnerability>
+    <attack_type>Set-Cookie does not use Secure keyword</attack_type>
+    <name>Cookie without Secure Flag</name>
+    <url>https://juice.dev.learnf5.cloud/#/</url>
+    <cookie>language</cookie>
+    <threat>low</threat>
+    <score>4</score>
+    <status>open</status>
+    <opened xsi:nil="true" />
+  </vulnerability>
+  <vulnerability>
+    <attack_type>Set-Cookie does not use Secure keyword</attack_type>
+    <name>Cookie without Secure Flag</name>
+    <url>https://juice.dev.learnf5.cloud/#/</url>
+    <cookie>oclmooot</cookie>
+    <threat>low</threat>
+    <score>4</score>
+    <status>open</status>
+    <opened xsi:nil="true" />
+  </vulnerability>
+  <vulnerability>
+    <name>Vulnerable JavaScript Library</name>
+    <url>https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js</url>
+    <threat>medium</threat>
+    <score>6</score>
+    <status>open</status>
+    <opened xsi:nil="true" />
+  </vulnerability>
+</scanner_vulnerabilities>
