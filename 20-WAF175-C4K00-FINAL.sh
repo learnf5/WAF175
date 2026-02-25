@@ -5,3 +5,7 @@ SCF=base.scf
 curl --silent https://raw.githubusercontent.com/learnf5/$COURSE_ID/main/scf/$SCF --output /tmp/$SCF
 sudo scp /tmp/$SCF 192.168.1.31:/var/local/scf
 sudo ssh 192.168.1.31 tmsh load sys config merge file $SCF
+
+# make a file available to the student
+mkdir ~/Desktop/Lab_Files
+curl https://raw.githubusercontent.com/learnf5/WAF175/refs/heads/main/JSS.yml --output ~/Desktop/Lab_Files/JSS.yml
