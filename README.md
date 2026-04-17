@@ -43,7 +43,9 @@ Notes, build scripts, and associated files for the Configuring BIG-IP WAF versio
 |WAF-C4F02-CustRespPgIrule|WAF175-C4F02-CUSTOM     |
 |WAF-C4G01-GeoEnfrcmt     |WAF175-C4G01-GEOLOCATION|
 |WAF-C4G02-IpAddrExcpt    |WAF175-C4G02-EXCEPTION  |
-|WAF-C4J02-L7LocTrafPol   |WAF175-C4J02-LAYER7     |
+| N/A                     |WAF175-C4I00-FINAL1     |
+|WAF-C4J02-L7LocTrafPol   |WAF175-C4J02-FINAL2     |
+| N/A                     |WAF175-C4K00-FINAL3     |
 
 ## Lab VM RAM (GB) and SCF
 
@@ -87,7 +89,9 @@ Notes, build scripts, and associated files for the Configuring BIG-IP WAF versio
 |WAF175-C4F02-CUSTOM     |8     |4   |4             |rdp.scf          |
 |WAF175-C4G01-GEOLOCATION|8     |4   |4             |rdp.scf          |
 |WAF175-C4G02-EXCEPTION  |8     |4   |4             |rdp.scf          |
-|WAF175-C4J02-LAYER7     |8     |4   |4             |base.scf         |
+|WAF175-C4I00-FINAL1     |8     |4   |4             |base.scf         |
+|WAF175-C4J02-FINAL2     |8     |4   |4             |base.scf         |
+|WAF175-C4K00-FINAL3     |8     |4   |4             |base.scf         |
 
 ## Lab Name, Duration (hr) and VLANs
 
@@ -131,4 +135,6 @@ Notes, build scripts, and associated files for the Configuring BIG-IP WAF versio
 |WAF175-C4F02-CUSTOM      |Log Violation Data and Send a Custom Response Page from an iRule                |       1|WAF175-455|X   |X       |X       |
 |WAF175-C4G01-GEOLOCATION |Implement Geolocation Enforcement                                               |       1|WAF175-460|X   |X       |X       |
 |WAF175-C4G02-EXCEPTION   |Configure IP Address Exceptions List                                            |       1|WAF175-465|X   |X       |X       |
-|WAF175-C4J02-LAYER7      |Manage Traffic with Layer 7 Local Traffic Policies                              |       1|WAF175-470|X   |X       |X       |
+|WAF175-C4I00-FINAL1      |Final Lab 1: Production Scenario                                                |       1|WAF175-470|X   |X       |X       |
+|WAF175-C4J02-FINAL2      |Final Lab 2: Manage Traffic with Layer 7 Local Traffic Policies                 |       1|WAF175-470|X   |X       |X       |
+|WAF175-C4K00-FINAL3      |Final Lab 3: Using a Swagger File and API Security Template                     |       1|WAF175-470|X   |X       |X       |
